@@ -166,8 +166,8 @@ export default function Home() {
   }
 
   return (
-    <main className="bg-blue-300/50 flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="bg-zinc-300 w-96 border rounded-md border-black relative">
+    <main className="bg-blue-300/50 flex min-h-screen flex-col items-center justify-center">
+      <div className="bg-zinc-300 sm:w-96 w-64 border rounded-md border-black relative">
         <div className="h-16 m-3 border border-orange-500 p-3 rounded-md flex items-end justify-end text-2xl overflow-auto">
           {typeCalc && (
             <div className="text-sm absolute right-4 top-4">
